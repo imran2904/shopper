@@ -31,7 +31,7 @@ const Navbar = () => {
             </ul>
             <div className="ms-auto d-flex position-relative mb-1">
               <Link to='/login'><button className='btn me-2' style={{ backgroundColor: 'pink' }}>Login</button></Link>
-              <SlBasket size={40}/>
+              <SlBasket size={20}/>
               <div className="nav-cart-counter">0</div>
             </div>
           </div>
